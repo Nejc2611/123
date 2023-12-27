@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Program</title>
+    <link rel="stylesheet" href="site.css">
+    <style>
+        /* Additional Styles for the Form */
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="email"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        input[type="checkbox"] {
+            margin-right: 5px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #1e90ff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navi">
+        <ul>
+            <li><a href="Site.html#home">Home</a></li>
+            <li><a href="Site.html#products">Products</a></li>
+            <li><a href="Site.html#newsletter">Newsletter</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <header class="drek">
+        <h1>Affiliate/Learning <span style="color:black">Program</span></h1>
+        <p>For additional information, kindly complete the form.</p>
+    </header>
+    <div class="intro-container">
+        <section class="company-intro pederes1">
+            <h2>Brief Description</h2>
+            <p>
+                To generate income in this platform, all you need to engage 
+                in is <span style="font-weight: 500;">Affiliate Marketing</span>.<br><br> What makes this program truly exceptional
+                 is its comprehensive approach, not only<br> guiding you through the 
+                 intricacies of affiliate marketing but also imparting<br> knowledge on
+                  <span style="font-weight: 500;">forex 
+                 trading, cryptocurrency, e-commerce,</span> and various other valuable skills.<br><br>
+                 <span style="font-weight: 500;">To apply for the program, and to learn more fill
+                     the form below.</span></p>
+        </section>
+    </div>
+    <section class="section">
+        <form action="#" method="post">
+            <label for="fname">First Name:</label>
+                <input type="text" id="fname" name="fname" required>
+            <label for="lname">Last Name:</label>
+                <input type="text" id="lname" name="lname" required>
+            <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            <label>
+                <input type="checkbox" name="sentence1" value="sentence1" checked>
+                Recieve newsletter
+            </label>
+             <label>
+                <input type="checkbox" name="sentence2" value="sentence2" required>
+                I am above 18 years old
+            </label>
+            <button class="button-66" type="submit">Submit</button>
+        </form>
+    </section>
+</body>
+</html>
